@@ -18,6 +18,8 @@ public class CsvDataClass
     public int damage_taken {get; set;}
     [Name("health")]
     public int health {get; set;}
+    [Name("enemies_killed")]
+    public int enemies_killed { get; set; }
     [Name("level")]
     public int level {get; set;}
 
